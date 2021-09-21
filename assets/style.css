@@ -21,23 +21,23 @@
 .header{
     display: inline-block;
     grid-template-columns: auto auto auto;
-    /*background-color: #055ae3;
-    background: rgb(0,0,0);
-background: linear-gradient(143deg, rgba(0,0,0,1) 0%, rgba(24,8,50,1) 32%, rgba(28,5,64,1) 61%, rgba(0,0,0,1) 100%);*/
+    background-color: #000000;
+    /*background: rgb(0,0,0);
+background: linear-gradient(143deg, rgba(0,0,0,1) 0%, rgba(24,8,50,1) 32%, rgba(28,5,64,1) 61%, rgba(0,0,0,1) 100%);
 background: rgb(7,4,32);
-background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba(28,5,64,1) 59%, rgba(23,3,54,1) 100%);
+background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba(28,5,64,1) 59%, rgba(23,3,54,1) 100%);*/
     margin-top: 1.9em;
 }
 
 .logo__img{
-    margin-bottom: .1em;
+    margin-bottom: .2em;
     margin-top: .2em;
 }
 .logo__name{
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 19px;
     line-height: 15px;
     letter-spacing: 0.02em;
     
@@ -104,10 +104,21 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
 }
 
 .home{
-    height: 27em;
+    height: 30em;
+    
 }
 
-
+.hero{
+    min-height: 44vh;
+    width: 55em;
+    
+    background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif) ;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-left: auto;
+    margin-bottom: 3em;
+}
 
 
 
