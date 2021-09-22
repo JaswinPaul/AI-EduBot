@@ -123,12 +123,11 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
 }
 
 .home{
-    height: 30em;
-    
+    height: 40em;
 }
 
 .hero{
-    min-height: 48vh;
+    min-height: 49vh;
     width: 55em;
     
     background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif) ;
@@ -141,3 +140,37 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
 
 
 
+/* ========================== info ======================== */
+
+.info-1{
+    background:#ffffff;
+    width: 85%;
+    height: 30em;
+    position: absolute;
+    
+}
+
+.info__text{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 98px;
+
+}
+
+.info__sub__heading{
+    font-family: Josefin Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 39px;
+line-height: 54px;
+letter-spacing: 0.02em;
+padding-left: 0em;
+
+margin-left: 2em;
+}
+
+.arrow__icon{
+    margin-left: 0em;
+}
