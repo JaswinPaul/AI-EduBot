@@ -92,6 +92,7 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     left: 229.49px;
     top: 345.61px;
 
+    margin-top: 2.8em;
     border: 1px solid #EFD912;
 }
 
@@ -129,7 +130,7 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     padding-top: 1.5em;
     padding-left: 2.5em;
     padding-right: 2.5em;
-    background-color: #e4dcdc;
+    
 }
 
 .hero{
@@ -143,17 +144,18 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     margin-left: auto;
     margin-bottom: 3em;
 }
-
+.home__image{
+    padding-left: 43em;
+    margin-bottom: 20em;
+}
 
 
 /* ========================== info ======================== */
-.info{
-    background-color: #e4dcdc;
-}
+
 
 .info-1{
-    
-    width: 85%;
+
+    margin-right: 13em;
     height: 33em;
     position: absolute;
     padding-left: 6em;
@@ -163,7 +165,8 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     border-width: .1em;
     border-color: #363333;
     border-top: none;
-    background-color: #ffffff;
+    
+    background: #ffffff;
 }
 
 .info__text{
@@ -195,6 +198,14 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
 .ai__bot__section{
     margin-top: 38.5em;
     margin-bottom: 8em;
+    
+
+}
+
+.ai__bot__div{
+    margin-left: 7em;
+    margin-right: 7em;
+    
 }
 
 .ai-bot-heading {
@@ -207,11 +218,12 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
 }
 
 .bot{
-    border-style: ridge;
+    /*border-style: ridge;
     border-width: .1em;
-    border-color: #363333;
+    border-color: #363333;*/
     border-radius: 10px;
     padding: 18.3em;
+    background-color: #f1ecec;
 }
 
 .sorry{
@@ -258,4 +270,51 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     width: 8em;
     margin-left: 3em;
     margin-top: .5em;
+}
+
+/*========================== Footer =================*/
+.footer{
+    background-color: #000000;
+    padding-bottom: 5em;
+}
+.footer__text{
+    color: #ffffff;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+
+}
+
+.footer__div{
+    padding-left: 5em;
+    padding-top: 5em;
+}
+
+.loves{
+    margin-left: 25em;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 5em;
+}
+
+.say__hello{
+    color: #ffffff;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    margin-left: 11em;
+}
+
+.copyright{
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 2.5em;
+    margin-left: 30em;
+ 
 }
