@@ -93,7 +93,7 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     top: 345.61px;
 
     margin-top: 2.8em;
-    border: 1px solid #EFD912;
+    border: 1px solid #ffffff;
 }
 
 .margin1__img{
@@ -154,7 +154,6 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
 
 
 .info-1{
-
     margin-right: 13em;
     height: 33em;
     position: absolute;
@@ -222,8 +221,21 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     border-width: .1em;
     border-color: #363333;*/
     border-radius: 10px;
-    padding: 18.3em;
+    padding: 3em;
     background-color: #f1ecec;
+}
+
+.comeon__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.button__text{
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-style: normal;
 }
 
 .sorry{
@@ -231,15 +243,21 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
 }
 
 /*======================= Issue ===============================*/
+.issue{
+    position: absolute;
+    padding-top: 2.5em;
+}
+
 
 .issue__heading{
     font-family: Open Sans;
     font-style: normal;
     font-weight: 200;
     font-size: 47px;
-    margin-left: .2em;
+    margin-left: 1em;
     margin-right: 0;
     margin-bottom: .5em;
+    margin-top: .8em;
     color: #000000;
 }
 
@@ -250,15 +268,19 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     border-width: .1em;
     border-color: #363333;
     border-radius: 10px;
-    padding: 3em;
-
+    padding: 0em;
+    
 }
+    
+
 
 .solve{
-    margin-left: 1.2em;
+    margin-left: 2em;
     font-size: 40px;
     font-family: Josefin Sans;
     font-style: normal;
+    
+    margin-top: .8em;
 }
 
 .solve__div{
@@ -266,16 +288,27 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     margin-top: 5em;
 }
 
+.click{
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 4.2em;
+    margin-bottom: 0em;
+    margin-top: 2.5em
+}
+
 .button{
     width: 8em;
-    margin-left: 3em;
-    margin-top: .5em;
+    margin-left: 4.2em;
+    margin-top: 2em;
 }
 
 /*========================== Footer =================*/
 .footer{
     background-color: #000000;
     padding-bottom: 5em;
+    margin-top: 29em;
 }
 .footer__text{
     color: #ffffff;
@@ -283,7 +316,7 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     font-style: normal;
     font-weight: 800;
     font-size: 80px;
-
+    margin-top: 3em;
 }
 
 .footer__div{
@@ -292,12 +325,16 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
 }
 
 .loves{
-    margin-left: 25em;
+    margin-left: 0em;
     font-family: Josefin Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    margin-top: 5em;
+    font-size: 22px;
+    margin-top: 1em;
+}
+
+.loves__div{
+    margin-top: 2.4em;
 }
 
 .say__hello{
@@ -307,7 +344,10 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     font-weight: 300;
     font-size: 50px;
     margin-left: 11em;
+    margin-top: .7em;
 }
+
+
 
 .copyright{
     font-family: Josefin Sans;
@@ -315,6 +355,38 @@ background: linear-gradient(143deg, rgba(7,4,32,1) 0%, rgba(24,8,50,1) 32%, rgba
     font-weight: 200;
     font-size: 20px;
     margin-top: 2.5em;
-    margin-left: 30em;
+    margin-left: 32em;
  
+}
+
+.solve__img{
+    height: 93%;
+}
+
+.arrow__icon:hover{
+    transition: .3s;
+    margin-left: .7em;
+}
+
+.atag{
+    text-decoration: none;
+}
+
+.say__hello:hover{
+    color: #99c6d3;
+}
+
+.social__icon{
+    margin-right: 1em;
+    width: 46px;
+    margin-top: 1em;
+}
+
+.fb__icon{
+    width: 3em;
+    height: 3em;
+}
+
+.support__us{
+    margin-left: 8em;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AI EduBot</title>
 
     <!--Bootstrap-->
 
@@ -34,7 +34,8 @@
             <div class="mb-0 me-0 ms-0 header">
                 <div class="text-white logo__div ">
                     <img src="assets/images/Frame 8.svg" alt="" class="logo__img">
-                    <p class="logo__name">AI EduPlanet</p>
+                    <p class="logo__name">AI EduBot</p>
+                     <!--<a href="" class="logo__name atag text-white">AI EduBot</a>-->
                 </div>
                 <div class="nav__div">
                     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -46,18 +47,22 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                                    <li class="nav-item">
+                                    <!--<li class="nav-item">
                                         <a class="nav-link text-white active" aria-current="page" href="#home-section">HOME</a>
+                                    </li>-->
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#bot__section__id">AI BOT</a>
                                     </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#help__section__id">HELP</a>
+                                    </li>
+
                                     <li class="nav-item">
                                         <a class="nav-link text-white" href="#">WHO WE ARE</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">AI BOT</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">RESOURCES</a>
-                                    </li>
+                                    
                                     <li class="nav-item">
                                         <a class="nav-link text-white" href="#">CONTACT US</a>
                                     </li>
@@ -133,33 +138,45 @@
 
     <section class="ai__bot__section">
         <div class="row ai__bot__div">
-            <div class="ai__bot text-center mb-2">
+            <div class="ai__bot text-center mb-2 col-md-12">
                 <p class="ai-bot-heading">
                     AI Bot
                 </p>
             </div>
 
-            <div class="bot mt-5">
-                <p class="sorry">Sorry, the bot is not available right now</p>
+            <div class="bot mt-5 text-center col-md-12" id="bot__section__id">
+                <!--<p class="sorry">Sorry, the bot is not available right now</p>-->
+
+                
+                <img src="assets/images/edubot18.svg" alt="">
+                <p class="comeon__text mb-0">Come on! </p>
+                <p class="somethingnew__text mb-0">Let’s experience something new</p>
+                
+            </div>
+
+            <div class="bot text-center col-md-12 pt-0">
+                <button type="button" class="btn btn-dark button__text">START USING EDUBOT</button>
             </div>
         </div>
     </section>
 
-    <section class="issue">
+    <section class="issue slide-out-left" id="help__section__id">
         <div class="row issue__div">
             
                 <div class="col-md-10">
                 <p class="issue__heading">Facing any issue ?</p>
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-5 p-0">
                    
-                    <p class="solve mt-5">Let us solve it.</p>
-                    <button type="button" class="btn btn-dark button ">Need help ?</button>
+                    <p class="solve">Don't worry ! <br> We are here to <br> solve it.</p>
+
+                    <!--<p class="click">Click here </p>-->
+                    <button type="button" class="btn btn-dark button button__text">Need help ?</button>
                 </div>
                 
-                <div class="col-md-5">
-                    <img src="assets/images/solve1.png" alt="" class="img-fluid">
+                <div class="col-md-5 p-0">
+                    <img src="assets/images/solve4.png" alt="" class="img-fluid solve__img">
                 </div>
                    
   
@@ -171,14 +188,50 @@
     </section>
 
     <footer class="footer">
-        <div class="footer__div">
+        <div class="footer__div row">
             <p class="footer__text ms-4">Let's dream & <br> grow together</p>
 
-            <p class="text-white loves">If you would like to get in touch with us there is no <br> one who loves pain itself.</p>
+            <div class="col md-6 mt-5">
+                <div class="mb-2">
+                    <a href="" class="atag">
+                        <img src="assets/images/link1.svg" alt="" class="social__icon ms-5 linkedin__icon">
+                    </a>
+        
+                    <a href="" class="atag">
+                        <img src="assets/images/twi1.svg" alt="" class="social__icon twitter__icon ms-1">
+                    </a>
+        
+                    <a href="" class="atag">
+                        <img src="assets/images/fb3.svg" alt="" class="social__icon ">
+        
+                    </a>
+        
+                    <a href="" class="atag">
+                        <img src="assets/images/insta1.svg" alt="" class="social__icon insta__icon">
+                    </a>
+                </div>
 
-            <p class="text-white say__hello">Say hello</p>
+                <a href="#" class="atag text-white support__us">Support us</a>
+                
+            </div>
+            
 
-            <p class="text-white copyright">All rights reserved 2021 © AI Educator</p>
+            <div class="col-md-6 loves__div">
+                <p class="text-white loves">If you would like to get in touch with us there is no <br>
+                     one who loves pain itself.</p>
+            </div>
+            
+
+            
+
+            <a href="" class="atag mt-2">
+                <span class="text-white say__hello">Say hello
+                    <img src="assets/images/arrow.svg" alt="" class="arrow__icon">
+                    
+                </span>
+            </a>
+
+            <p class="text-white copyright">All rights reserved 2021 © AI EduBot</p>
         </div>
     </footer>
 
